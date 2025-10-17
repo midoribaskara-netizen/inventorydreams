@@ -1,0 +1,297 @@
+/*création du rectangle du fond des menus*/
+header{
+    padding: 30px  5px; /* ajuste la taille de l'espace a l'intérieur*/
+    margin: 5px; /* ajuste la taille de l'espace a l'extérieur*/
+    border-radius: 5px; /* ajuste l'arrrondissement des bords */
+    background-color:cornsilk;  /*couleur du fond*/
+}
+/*fond du site*/
+body{
+    background-color:tan;
+}
+
+/*creation de l'entete*/
+.en-tete{
+    width:100%; /*ajuste la taille en largeur*/
+    height:400px;/*ajsute la taille en hauteur*/
+    margin: 0;
+    border-radius: 5px;
+    background-color:black;
+    margin-top: 40px; /*ajuste l'espace du dessus*/
+    overflow: hidden; /*ajsute la taille de l'image*/
+    display: block; /*controle le type d'affichage en occupant toute la largeur*/
+    padding: 0;
+}
+
+/*ajustement de la taille de l'image de l'entete*/
+.background{
+  width: 100%;
+  height: 100%;
+  margin-bottom: auto; /*espace en dessous*/
+  display: block;
+  
+ 
+}
+
+/*creation des boutons du menu*/
+.menu a {
+    display: inline-block; /* controle le type d'affichage en restant sur la ligne avec les modification du height width*/
+    padding: 10px 200px;
+    margin: 5px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    text-decoration: none; /*retire le soulignement en dessous du texte*/
+    background-color: goldenrod;
+    color: black;
+}
+
+/*changement de couleur du bouton menu*/
+.menu a:hover {
+    color:black;
+    background-color:palevioletred;
+    padding: 10px 200px;
+    margin: 5px;
+    border: 2px solid palevioletred;
+    border-radius: 5px;               
+}
+
+/*création du rectangle de la barre de recherche*/
+.recherche input {
+    width:200px;
+    height:50px;
+    padding: 20px;
+    background-color:whitesmoke;
+    margin:0px;
+    border:2px solid gray;
+    border-radius:10px;
+    box-sizing: border-box; /*les hauteurs et largeur sont calculés*/
+    margin-left: 80%;
+
+}
+
+/*création du bouton sign it*/
+.sign a {
+    display: inline-block;
+    padding: 10px 200px;
+    margin: 50px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: goldenrod;
+    color: black;
+    justify-content: space-between; /*crée une espace egale entre eux et les premier et dernier se trouve pres du bord du rectangle crée*/
+}
+
+/*changement de couleur du bouton sign it*/
+.sign a:hover{
+   color:black;
+    background-color:palevioletred;
+    padding: 10px 200px;
+    margin: 50px;
+    border: 2px solid palevioletred;
+    border-radius: 5px; 
+}
+
+/*ajustement du texte du logo*/
+.logo h1{
+ padding: 15px;
+ height: 50px;
+ text-align: center;/*centre le texte*/
+}
+
+
+/*création de la boite pour le logo*/
+.box{
+    display: inline-block;
+    padding: 5px 50px;
+    margin: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color:antiquewhite;
+    color: black;
+    
+}
+
+/*structure du flex*/
+.presentation-contenu {
+ display: flex;
+ flex-wrap: wrap; /*autorise les elements a passer a la ligne si besoin*/
+ }
+
+/*création du bloc principale pour centent et text zone*/
+ .bloc-1 {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: firebrick;
+    color: black;
+ }
+
+ /*creation d'une boite pour l'image actus*/
+ .content {
+   width: 50%;
+   height:300px;
+   border-radius: 20px;
+   margin:100px;
+   padding: 50px;
+   background-color: white;
+
+}
+   
+
+/*création d'une boite pour le texte*/
+.text-zone{
+   width: 50%;
+   height:350px;
+   border-radius: 20px;
+   margin:100px;
+   padding: 50px;
+   background-color: white;  
+
+}
+
+/*création d'une nouvelle boite pour les cartes*/
+.fond{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;/*aligne les elements*/
+    padding: 10%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: peachpuff;
+    color: black;
+    display: inline-flex;
+}
+
+/**/
+ .bloc-2 {
+ width: 50%;
+ height: 150px;
+ }
+/*les content sont des boites pour chaque carte présente dans le site*/
+ .content2{
+   width:20%;
+   height: 350px;
+   border-radius: 20px;
+   margin: 100px;
+   padding:10px;
+   background-color: orange;
+
+ }
+
+.content3{
+   width:20%;
+   height: 350px;
+   border-radius: 20px;
+   margin: 10px;
+   padding:10px;
+   background-color: SandyBrown;
+}
+
+
+
+ .fond2{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: peachpuff;
+    color: black;
+ }
+ .bloc-3 {
+ width: 50%;
+ height: 100px;
+ }
+
+ .content4{
+    width:20%;
+   height: 350px;
+   border-radius: 20px;
+   margin: 100px;
+   padding:10px;
+   background-color: Burlywood;
+
+ }
+
+ .content5{
+  width:20%;
+   height: 350px;
+   border-radius: 20px;
+   margin: 100px;
+   padding:10px;
+   background-color: pink;
+
+ }
+
+ .content6{
+  width:20%;
+   height: 350px;
+   border-radius: 20px;
+   margin: 100px;
+   padding:10px;
+   background-color: DimGray;
+
+ }
+
+ .content7{
+  width:20%;
+   height: 350px;
+   border-radius: 20px;
+   margin: 100px;
+   padding:10px;
+   background-color: Gold;
+
+ }
+
+/*ajustelent des images*/
+ .image{
+  width: 100%;
+  height: 100%;
+  margin-bottom: auto;
+  display: block;
+ }
+
+ /*ajustement de l'image de l'actus*/
+ .pict{
+  width: 100%;
+  height: 100%;
+  margin-bottom: auto;
+  display: block;
+ }
+
+ /*création du footer*/
+ .footer{
+     padding: 30px  5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color:antiquewhite;
+ }
+/*ajustement de la taille des ecriture du texte zone*/
+ .text-zone p{
+    font-size: 1.2rem;
+ }
+
+ .text-zone h1 {
+    font-size: 1.2rem; /*ajuste la taille des polices relativement*/
+ }
+
+ .ul li {
+    font-size: 1.2rem;
+ }
+
+ .h2{
+    font-size: 1.2rem;
+ }
+
+ .h3{
+    font-size: 2rem;
+ }
